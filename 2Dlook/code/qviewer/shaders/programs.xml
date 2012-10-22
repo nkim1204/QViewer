@@ -1,0 +1,197 @@
+<!--
+
+programs.xml
+Author: Forrester Cole (fcole@cs.princeton.edu)
+Copyright (c) 2009 Forrester Cole
+
+This is the main metafile for all shader programs. GQShaderManager
+parses this file.
+
+libnpr is distributed under the terms of the GNU General Public License.
+See the COPYING file for details.
+
+-->
+
+<glsl_programs>
+  <program name="00_smoothColor">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="smoothColor.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="smoothColor.frag"/>
+    </shader>
+  </program>
+  <program name="01_phongVertex">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="phongVertex.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="phongVertex.frag"/>
+    </shader>
+  </program>
+  <program name="02_phongFragment">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="phongFrag.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="phongFrag.frag"/>
+    </shader>
+  </program>
+  <program name="03_texture">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="texture.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="texture.frag"/>
+    </shader>
+  </program>
+  <program name="04_xyz_color">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="xyz_color.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="xyz_color.frag"/>
+    </shader>
+  </program>
+  <program name="05_toon">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="toon.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="toon.frag"/>
+    </shader>
+  </program>
+  <program name="06_earthDayAndNight">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="earthDayAndNight.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="earthDayAndNight.frag"/>
+    </shader>
+  </program>
+  <program name="08_normalMap">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="normalMap.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="normalMap.frag"/>
+    </shader>
+  </program>
+  <program name="09_bump">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="bump.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="bump.frag"/>
+    </shader>
+  </program>
+  <program name="10_grid">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="grid.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="grid.frag"/>
+    </shader>
+  </program>
+  <program name="11_quad">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="quad.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="quad.frag"/>
+    </shader>
+  </program>
+  <program name="12_background">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="background.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="background.frag"/>
+    </shader>
+  </program>
+  <program name="13_refraction">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="refraction.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="refraction.frag"/>
+    </shader>
+  </program>
+  <program name="14_tonemapping">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="tonemapping.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="tonemapping.frag"/>
+    </shader>
+  </program>
+  <program name="15_deferredShading">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="deferredShading.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="deferredShading.frag"/>
+    </shader>
+  </program>
+  <program name="16_warp">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="warp.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="warp.frag"/>
+    </shader>
+  </program>
+  <program name="wf">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="wf.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="wf.frag"/>
+    </shader>
+  </program>
+  <program name="finalColor">
+    <shader type="vertex">
+      <source filename="version.glsl"/>
+      <source filename="finalColor.vert"/>
+    </shader>
+    <shader type="fragment">
+      <source filename="version.glsl"/>
+      <source filename="finalColor.frag"/>
+    </shader>
+  </program>
+</glsl_programs>
+
